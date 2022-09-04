@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: "Roboto";
+}
+.bgContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  color: #0f172a;
+  font-size: 25px;
+}
+.paletteContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+}
+.notification-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  height: 75px;
+  width: 100%;
+  border-radius: 7px;
+  padding-left: 20px;
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.paraText {
+  font-size: 15px;
+  color: #ffffff;
+}
+@media all and (min-width: 768px) {
+  .paraText {
+    font-weight: bold;
+  }
+}
+.firstPalette {
+  background-color: #0b69ff;
+}
+.secondPalette {
+  background-color: #2dca73;
+}
+.thirdPalette {
+  background-color: #ffb800;
+}
+.fourthPalette {
+  background-color: #ff0b37;
+}
